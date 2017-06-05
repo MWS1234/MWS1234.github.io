@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.fgh {
+	color: #FFF;
+}
+.dfh {	color: #FFF;
+}
+.dfh h2 a {
+	color: #FFF;
+}
+#form1 table tr td {
+	color: #FFF;
+}
+#apDiv1 {
+	position:absolute;
+	left:519px;
+	top:541px;
+	width:351px;
+	height:41px;
+	z-index:1;
+}
+#apDiv1 h4 {
+	color: #FFF;
+}
+.fgnf {
+	color: #FFF;
+}
+.fhg {
+	color: #FFF;
+}
+.tgfgj {
+	color: #FFF;
+}
+#apDiv1 h4 {
+	color: #FFF;
+}
+#apDiv1 h4 a {
+	color: #FFF;
+}
+#apDiv2 {
+	position:absolute;
+	left:12px;
+	top:113px;
+	width:221px;
+	height:167px;
+	z-index:2;
+}
+#apDiv3 {
+	position:absolute;
+	left:-3px;
+	top:443px;
+	width:355px;
+	height:217px;
+	z-index:2;
+}
+#apDiv4 {
+	position:absolute;
+	left:883px;
+	top:47px;
+	width:260px;
+	height:165px;
+	z-index:3;
+}
+</style>
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+</head>
+
+<body background="../abackground.jpg">
+<div id="apDiv1">
+  <h4 align="center"> Contact:<a href="https://www.google.com/gmail/about/">2018schrm89@moundsviewschools.org</a><br />
+    651-488-8888
+  </h4>
+</div>
+<div id="apDiv3"><img src="http://www.freeiconspng.com/uploads/email-marketing-icon-email-icon-1.png" alt="Image result for email png" width="328" height="229"/></div>
+<div id="apDiv4"><img src="https://cdn0.iconfinder.com/data/icons/thin-communication-messaging/57/thin-012_mail_envelope_email_sent-512.png" alt="Image result for sent png" width="275" height="167"/></div>
+<h2 align="center" class="fgh">Coupons and Deals</h2>
+<table width="50%" align="center">
+  <tr>
+    <td align="center" class="dfh"><h2>| <a href="Final Project 4 Home.html">Home</a> | <a href="Final Project.html">Travel</a> | <a href="Final Project 3 Hotel.html">Hotel</a> | <a href="final project 5 Coupondeals.html">Coupons</a> |</h2></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<form action="mailto:2018schr89@moundsviewschools.org" method="post" enctype="text/plain" onsubmit="MM_validateForm('textfield','','R','textfield2','','RisEmail','textfield3','','R');return document.MM_returnValue">
+  <table width="59%" height="174" border="5" align="center" cellpadding="5" cellspacing="5">
+    <tr>
+      <td><h2 class="fgnf">What is your name?</h2></td>
+      <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield" /></td>
+    </tr>
+    <tr>
+      <td><h2 class="fhg">What is your email?</h2></td>
+      <td><label for="textfield2"></label>
+      <input type="text" name="textfield2" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td><h2 class="tgfgj">What deals/coupons are you looking for? (flight, hotels)</h2></td>
+      <td><label for="textarea"></label>
+        <label for="textfield3"></label>
+      <input type="text" name="textfield3" id="textfield3" /></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <input type="reset" name="Reset" id="button" value="Reset" />
+        |
+<label></label>
+<input type="submit" name="button2" id="button2" value="Submit" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
